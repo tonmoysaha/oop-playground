@@ -1,5 +1,6 @@
 package fInal_static;
 
+
 public class Main {
   /**
    * Class can not be declared as static.
