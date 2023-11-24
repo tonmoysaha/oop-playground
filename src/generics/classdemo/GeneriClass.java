@@ -9,7 +9,7 @@ public class GeneriClass {
       throws IllegalAccessException, InstantiationException {
     T instance = (T) clazz.newInstance();
     instance.setFirstname(firstName);
-    instance.setLastname(firstName);
+    instance.setLastname(lastName);
     return instance;
   }
 
