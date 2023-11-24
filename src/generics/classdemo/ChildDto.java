@@ -1,6 +1,6 @@
 package generics.classdemo;
 
-public class ChildClass extends ParentDto{
+public class ChildDto extends ParentDto{
   private String fullName;
 
   public String getFullName() {

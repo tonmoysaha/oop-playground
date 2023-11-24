@@ -5,7 +5,7 @@ public class DemoMain {
     ParentDto pa = aClass.getObject(ParentDto.class, "tonmoy", "saha");
     System.out.println(pa);
 
-    ChildClass object = aClass.getObject(ChildClass.class, "tonmoy", "saha");
+    ChildDto object = aClass.getObject(ChildDto.class, "tonmoy", "saha");
 
   }
 }
